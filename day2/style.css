@@ -1,0 +1,64 @@
+.wrapper{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.logo h1{
+	font-size: 36px;
+	font-weight: 600;
+	margin:0;
+	margin-top: -5px;
+}
+.logo h1 span:first-of-type{
+	color:#D19C97;
+	border: 1px solid #ddd;
+    padding: 0px 10px;    
+}
+.search-product input{
+	border: 1px solid #ddd;
+    height: 40px;
+    padding-left: 10px;
+    width: 70%;
+    border-radius: 0px;
+    font-size: 18px;
+    border-right: none
+}
+.search-product input:focus{
+	outline: none;
+}
+.search-product button{
+	height: 44px;
+    padding: 10px;
+    border-radius: 0px;
+    border: 1px solid #ddd;
+    margin-left: -10px;
+    color:#D19C97;
+    font-size: 16px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	margin:0;
+}
+.header{
+	margin-top: 25px;
+	min-height: 50px;
+}
+.selected-product{
+	text-align: right;
+}
+.features-point{
+	border:1px solid #ddd;
+	margin:30px;
+}
+.features-point .icon-text-wrap{
+	padding:30px;
+	display: flex;
+}
+.features-point .icon-text-wrap i{
+	font-size: 15px;
+	color:#D19C97;
+}
+.icon-text-wrap span{
+	font-size: 15px;
+	padding-left: 20px;
+	font-weight: 600;
+}
